@@ -13,7 +13,7 @@ export default function SearchOrder() {
 
     return(
         <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="order" value={query} onChange={ e => setQuery(e.target.value) }/>
+            <input type="text" placeholder="search order" value={query} onChange={ e => setQuery(e.target.value) }/>
         </form>
     );
 }
